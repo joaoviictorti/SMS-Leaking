@@ -7,7 +7,7 @@
 This application is a small demonstration of an SMS intercept made in Kotlin to send to the target's server 
 
 - [Starting](#starting)
-- [Features](#features)
+- [Important To Know](#important-to-know)
 
 # Starting
 
@@ -15,8 +15,9 @@ Running the code and performing SMS interception
 
 ![IMG](img/sms.png)
 
-# Features
+# Important To Know
 
-- The code uses the Kotlin programming language
+- The code uses the ```Kotlin``` programming language
 - A coroutine is created for the http request
-- The intercept uses a BroadcastReceiver call and filters actions from android.provider.Telephony.SMS_RECEIVED
+- The intercept uses a BroadcastReceiver call and filters actions from ```android.provider.Telephony.SMS_RECEIVED```
+- If you use it, remember to change the IP in the kotlin file in the ```Request function```
